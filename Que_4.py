@@ -1,4 +1,5 @@
 import numpy as np
+<<<<<<< HEAD
 
 arr = np.arange(1,25)
 
@@ -19,3 +20,12 @@ print("\n")
 print(A1.shape)
 print(A2.shape)
 print(A3.shape)
+=======
+ab1 = (np.linspace(0,5,10))
+print(ab1)
+print(len(ab1))
+
+ab2 = (np.linspace(-10,10,15))
+print(ab2)
+print(len(ab2))
+>>>>>>> 0fbd0d47662f02f06445dd11f5f3f9f690096b38

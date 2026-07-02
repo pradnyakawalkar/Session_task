@@ -1,5 +1,6 @@
 import numpy as np
 
+<<<<<<< HEAD
 arr3 = np.random.randn(6,6)
 print(arr3)
 
@@ -13,3 +14,17 @@ print(arr3[:3, :3])
 print("Modified Array:")
 print(arr3)
 print("Mean =", arr3.mean())
+=======
+a = np.random.randint(1,51,20)
+
+b = a.reshape(4,5)
+
+print("Matrix")
+print(b)
+
+print("\n sum =",b.sum())
+print("mean =",b.mean())
+print("Standard Deviation =",b.std())
+print("\n Maximum value in each row")
+print(b.max(axis=1))
+>>>>>>> 0fbd0d47662f02f06445dd11f5f3f9f690096b38
